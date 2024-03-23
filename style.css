@@ -1,0 +1,220 @@
+*{
+    margin: 0;
+ padding: 0;
+ font-family:'Poppins',sans-serif;
+ box-sizing:border-box;
+ }
+ html{
+    scroll-behavior: smooth;
+ }
+ body{
+ background: #050505;
+ color: #d6d4d4;
+ }
+ #header{
+    width:100%;
+    height: 100vh;
+    background-image: url(1.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 0% 0% 50% 50%;
+ 
+ }
+
+ .container{
+    padding: 10px 5%;
+ }
+ nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+ }
+ .logo{
+    width: 140px;
+ }
+ nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+ }
+ nav .btn{
+    color:  #fdfcfc;
+    background-color:  #ff004f;
+    padding: 10px;
+    border-radius: 15px;
+   
+ }
+ 
+ nav ul li a{
+    color: #fcfbfb;
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+ }
+ .header-text{
+   align-items: center;
+    margin-top: 12%;
+    font-size: 30px;
+ }
+ 
+ .header-text h1{
+    font-size: 60px;
+    margin-top: 20px;
+ }
+ .searcher{
+   border-radius: 20px;
+   width: 500px;
+   height: 150px;
+   margin-top: 5%;
+   margin-left: 30%;
+   background-color: rgb(29, 28, 28);
+   color: #fcfbfb;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+ }
+ .city{
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   flex-direction: column;
+   margin-left: 2%;
+   width: 120px;
+   height: 60px;
+   background-color: #fdfcfc;
+ }
+ #citySelect{
+   font-style: oblique;
+   font-family: poppins; 
+   border: none;
+   width: 100px;
+ }
+ .city p{
+   font-style: oblique;
+   font-family: poppins;
+   margin-top: 3%;
+   font-size: 15px;
+   color: #b4b0b0;
+ }
+ .Location{
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   flex-direction: column;
+   width: 180px;
+   height: 60px;
+   background-color: #fdfcfc;  
+ }
+ .Location p{
+   font-style: oblique;
+   font-family: poppins;
+   margin-top: 3%;
+   font-size: 15px;
+   color: #b4b0b0;
+ }
+ #address{
+   margin-left: 3%;
+   width: 170px;
+   height: 50px;
+   border: none;
+outline: none;
+ }
+ .findButton{
+   width: 100px;
+   height: 60px;
+   border-radius: 10px;
+   font-family: poppins;
+   font-size: 30px;
+   background-color: #ff004f;
+   color: #fdfbfb;
+   margin-right: 2%;
+ }
+ .header-text h1 span{
+    color: #ff004f;
+ }
+ #block {
+   width: 100%;
+   height: 80vh;
+   display: flex;
+   flex-direction: row; 
+   align-items: center; 
+   justify-content: flex-start; 
+ }
+ 
+ #block #img1 {
+   width: 400px;
+   height: 300px;
+   margin-right: 20px;
+   border-radius: 10px;
+ }
+ 
+ .text-container {
+   display: flex;
+   flex-direction: column; 
+ }
+ 
+ .text-container p {
+   font-size: 30px;
+ }
+ 
+ .text-container p span {
+   font-size: 40px;
+   color: #ff004f;
+ }
+ 
+ .btn1 {
+   margin-left: 70%;
+   width: 100px;
+   margin-top: 10px;
+   padding: 15px;
+   border-radius: 20px;
+   background-color: #ff004f;
+   color: #ffffff;
+ }
+ 
+ 
+ #block2{
+   width: 100%;
+   height: 40vh;
+   background-color:rgb(2, 65, 65);
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   position: relative;
+ }
+#block2 #email{
+   padding: 20px;
+   width: 300px;
+   margin-left: 25%;
+
+}
+#btn2{
+   width: 8%;
+   margin-right: 10%;
+   padding: 15px;
+   border-radius: 15px;
+   background-color:#ff004f;
+   color:#fdfcfc;
+}
+ #block2 p{
+   margin-left: 10%;
+   font-size: 40px;
+
+ }
+ #block2 p span{
+   color: #ff004f;
+ }
+ #block3{
+   width: 100%;
+   height: 15vh;
+   background-color:rgb(1, 16, 26);
+ }
+ .copyright{
+   width: 100%;
+   text-align: center;
+   padding: 25px 0;
+   background: #262626;
+   font-weight: 300;
+
+}
